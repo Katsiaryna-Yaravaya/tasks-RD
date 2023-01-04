@@ -1,7 +1,7 @@
 import {Button, Input} from "../index";
 import "./styles.css";
 
-const Form = ({title, subtitle, inputs, className, onSubmit}) => {
+const Form = ({title, subtitle, inputs, className, onSubmit, buttonTitle}) => {
 
     return (
         <form onSubmit={onSubmit} className="form">
@@ -17,7 +17,7 @@ const Form = ({title, subtitle, inputs, className, onSubmit}) => {
                 regex={item.regex}
             />)}
             <div className={className ? className : "buttonField"}>
-                <Button type="submit" name="Войти в систему"/>
+                <Button type="submit" name={buttonTitle}/>
             </div>
         </form>
     );

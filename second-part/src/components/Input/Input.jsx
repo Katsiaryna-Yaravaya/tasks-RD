@@ -8,7 +8,8 @@ const Input = ({type, label, isRequired, errorMessage, regex, onChange, name}) =
         if(onChange){
           onChange(e)
         }
-        setIsValidate(() => regex.test(e.target.value))
+
+        setIsValidate(() => e.target.value.match(regex))
     }
 
     return (
