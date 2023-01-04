@@ -1,0 +1,16 @@
+{
+  "data":[
+    {
+    "email": "test1@mail.ru",
+    "password": "123456789"
+    },
+    {
+      "email": "test2@mail.ru",
+      "password": "987654321"
+    },
+    {
+      "email": "test3@mail.ru",
+      "password": "1122334455"
+    }
+  ]
+}
