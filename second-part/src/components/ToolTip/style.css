@@ -1,0 +1,25 @@
+.tooltip {
+    font-size: 10px;
+    cursor: default;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-top: -3px;
+    visibility: hidden;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 18px;
+    align-items: center;
+}
+
+.tooltip > div {
+    max-width: 46px;
+}
+
+button {
+    font-size: 9px;
+    padding: 4px 0;
+    cursor: pointer;
+}

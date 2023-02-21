@@ -1,8 +1,9 @@
-import { Login } from "./pages";
+import Game from "./pages/Game/Game";
 
 const App = () => {
+
     return (
-        <Login/>
+        <Game/>
     );
 }
 
